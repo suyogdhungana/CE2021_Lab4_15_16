@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ArrayBST.h"
+#include "arrayBST.h"
 using namespace std;
 
 
@@ -119,7 +119,7 @@ void ArrayBinarySearchTree:: add(int key, int value){
                 else{
                     i=2*i;
                 }
-                cout<<"key not "
+                cout<<"key not found    ";
             }
           
              
